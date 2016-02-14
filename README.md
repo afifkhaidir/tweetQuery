@@ -8,6 +8,10 @@ Requirements:<br>
 Langkah:<br>
 1. Extract ChromeDriver<br>
 2. Masukkan lokasi chromedriver.exe ke<br>
-<code>browser = webdriver.Chrome("lokasi chromedriver.exe")</code><br>
+<code>browser = webdriver.Chrome()</code><br>
 Contoh:<br>
 <code>browser = webdriver.Chrome("C:/Users/Nurhikmah Afief/Documents/chromedriver.exe")</code><br>
+3. Lakukan pencarian query melalui kotak search twitter menggunakan <code>since</code> dan <code>until</code>. Lalu copy URL nya ke<br>
+<code>browser.get()</code><br>
+Contoh:<br>
+<code>browser.get("https://twitter.com/search?q=%23prayforriau%20since%3A2015-01-01%20until%3A2015-10-01&src=typd")</code>
